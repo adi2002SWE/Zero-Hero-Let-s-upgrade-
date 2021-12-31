@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Intro To Css</title>
+   <!--  <link rel="stylesheet" href="third.css"> -->
+    <style>
+    	*{
+		    margin: 0px;
+		    padding: 0px;
+		}
+		.one
+		{
+		    height: 500px;
+		    width: 100%;
+		    background-color: red;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: space-evenly;
+		    align-items:center; 
+		}
+
+		/* row - x=main  y-cross  */
+		/* column - x-cross y-main */
+		.one_child
+		{
+		    width: 100px;
+		    height: 100px;
+		    background-color: green;   
+		}
+	</style>
+</head>
+<body>
+
+    <div class="one">
+
+        <div class="one_child"></div>
+        <div class="one_child"></div>
+        <div class="one_child"></div>
+
+    </div>       
+</body>
+</html>
+
+
